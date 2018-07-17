@@ -6,6 +6,7 @@ import { getOrientation, setOrientationListener, removeOrientationListener } fro
 import Logo from './logo';
 import LoginPanel from './loginPanel';
 
+
 import LoadTabs from '../tabs';
 
 class Login extends Component {
@@ -52,6 +53,7 @@ class Login extends Component {
             show={this.state.logoAnimation}
             orientation={this.state.orientation}
           />
+        
         </View>
       </ScrollView>
     )
